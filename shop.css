@@ -1,0 +1,289 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+*{
+    font-family: Montserrat;
+}
+.container{
+   display:flex;
+   padding-top:8%;
+}
+input{
+border: 2px solid black;
+height: 40px;
+width: 608px;
+border-radius: 5px;
+position: absolute;
+left: 5%;
+top: 2%;
+margin: 10px;
+border: 1.4px solid #015BAF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+::placeholder{
+    font-family: FontAwesome;
+    font-weight: normal;
+    color: #007AFF;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+   /* main */
+.box{
+    flex:0.1;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
+.main_image{
+    padding: 5px;
+    border: 1px solid grey;
+    height:550px;
+    width:auto;
+    margin:5px;
+}
+.column{
+    /* position: relative; */
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+#main button{
+    height: 30px;
+    /* width: 30px; */
+flex-direction: column;
+}
+.content-1{
+    font-size:28px ;
+    line-height: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 30px;
+   
+}
+
+.content-2{
+    font-size: 23px;
+    font-weight: 200;
+    margin-left: 30px;
+    color: gray;
+}
+.content-3 {
+    margin:15px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.content-4 {
+    top: 10px;
+   display: flex ; 
+   flex-direction: row;
+   margin-left: 30px;
+}
+.content-4 h2{
+margin-top: 10px;
+padding: 0px 10px 0px 10px ;
+}
+.text-1{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.text-2{
+    font-size: 28px;
+    color: #979797;
+    text-decoration: line-through;
+   
+}
+.text-3{
+    font-size: 28px;
+    color: #00A939;
+}
+.text-4{
+    font-size: 28px;
+    color: red;
+    font-weight: 100;
+
+    
+}
+.content-5{
+    margin-left: 30px;
+    font-size: 25px;
+}
+.content-6{
+    font-size: 34px;
+    margin: 10px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.content-7{
+    font-size: 20px;
+    margin-left: 30px; 
+    text-align: justify;
+}
+.buttons{
+display: flex;
+justify-content: start;
+align-items: center;
+padding-top:10px;
+}
+.btn-1{
+position: relative;
+color: white;
+background-color: #007AFF;
+border-radius: 5px;
+line-height: 20px;
+margin:15px;
+margin-left:25px;
+padding-top:2px;
+}
+.btn-2{
+position: relative;
+width: auto;
+height: auto;
+font-size: 18px;
+color: #007AFF;
+background-color: white;
+border: 2px solid #007AFF;
+border-radius: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+    /* image */
+.box div{
+    display: flex; 
+    flex-direction: column;
+}
+.box img{
+    width: 75px;
+    height: 100px;
+    margin:5px;
+}
+
+
+/* similar */
+.content-8{
+    font-size:38px ;
+    line-height: 22px;
+    margin: 40px 0px 30px 30px;
+    font-weight: 600; 
+}
+#similar{
+    width:100%
+}
+#similar img{
+    /* position: absolute; */
+    width: 270px;
+    height: 333px;
+    left: 54px;
+    top: 663px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.similar-1{
+    top: 10px;
+    display: flex ; 
+    flex-direction: row;
+    margin-left: 30px;
+}
+.design{
+    background-color: #007AFF;
+    color: white;
+    top: 0%;
+    margin-right: 15px;
+    width: 269px;
+    margin-left: 10px;
+   
+}
+.design div {
+    top: 10px;
+   display: flex ; 
+   flex-direction: row;
+
+}
+.design div h2{
+    font-size: 16px;
+    left: 0%;
+}
+.design div h3{
+    font-size: 16px;
+    margin-left: 125px;
+}
+
+
+
+
+.section-5 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 102px;
+    padding-left:10%;
+    transform: translateX(-4%);
+}
+.section-5{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: rgb(121, 114, 114); */
+    /* width:100vw; */
+}
+.items{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: flex-start; */
+}
+.items a{
+    flex:0.25;
+    background: #015BAF;
+    border-radius: 5px;
+}
+a img{
+    width:100%;
+    height:auto;
+    
+}
+.details{
+    padding:10px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color:white;
+}
+.row-2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color:white
+}
+.row-3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.section-5 a{
+    text-decoration: none;
+}
